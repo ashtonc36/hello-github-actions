@@ -8,7 +8,7 @@ author: "octocat@github.com"
 
 inputs:
 
-  Ashton:
+  MY_NAME:
 
     description: "Who to greet"
 
