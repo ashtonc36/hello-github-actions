@@ -1,0 +1,37 @@
+As a part of this branch and pull request, create a file titled action-a/action.yml. You can do so using this quicklink or manually.
+
+Add the following content to the action.yml file:
+
+name: "Hello Actions"
+
+description: "Greet someone"
+
+author: "octocat@github.com"
+
+
+
+inputs:
+
+  Ashton:
+
+    description: "Who to greet"
+
+    required: true
+
+    default: "World"
+
+
+
+runs:
+
+  using: "docker"
+
+  image: "Dockerfile"
+
+
+
+branding:
+
+  icon: "mic"
+
+  color: "purple"
